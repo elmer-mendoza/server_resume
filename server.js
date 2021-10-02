@@ -17,7 +17,7 @@ app.use(cors());
 
 // Bodyparser Middleware
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 // Connect to Mongo
 
